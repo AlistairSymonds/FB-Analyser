@@ -4,6 +4,7 @@
 
 Conversation::Conversation(vector<string> participantsIn)
 {
+
 }
 
 int Conversation::addMessage(Message msg)
