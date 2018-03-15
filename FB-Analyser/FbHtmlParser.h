@@ -1,5 +1,6 @@
 #pragma once
 #include <filesystem>
+#include <fstream>
 #include "Conversation.h"
 
 
@@ -16,8 +17,10 @@ public:
 	~FbHtmlParser();
 
 private:
+	string readInTag(string htmlTag);
+
 	fs::path msgPath;
 	Conversation *conv;
-
+	ifstream ifs;
 };
 

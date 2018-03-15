@@ -150,6 +150,7 @@
     <ClInclude Include="Conversation.h" />
     <ClInclude Include="FbHtmlParser.h" />
     <ClInclude Include="Message.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -158,6 +159,7 @@
     <ClCompile Include="FB-Analyser.cpp" />
     <ClCompile Include="FbHtmlParser.cpp" />
     <ClCompile Include="Message.cpp" />
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

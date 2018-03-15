@@ -11,5 +11,7 @@ public:
 private:
 	vector<string> participants;
 	vector<Message> messages;
+public:
+	string title;
 };
 
